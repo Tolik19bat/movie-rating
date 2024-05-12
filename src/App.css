@@ -1,0 +1,7 @@
+.App {
+    border: 1px solid brown;
+}
+
+.card-body-stars {
+    display: flex;
+}

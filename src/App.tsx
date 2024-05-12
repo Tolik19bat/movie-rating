@@ -1,10 +1,11 @@
-import './App.css'
-import Stars from './components/Stars'
+import "./App.css";
+import Stars from "./components/Stars";
 
 const App: React.FC = () => {
+  const count = 5;
   return (
     <div className="App">
-      <Stars count={3} />
+      <Stars count={count} />
     </div>
   );
 };
